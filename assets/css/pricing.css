@@ -1,0 +1,27 @@
+.column {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#column1 {
+    background-color: #f8f9fa; /* Light gray */
+}
+
+#column2 {
+    background-color: #f8f9fa;
+}
+
+#column3 {
+    background-color: #f8f9fa;
+}
+
+#column4 {
+    background-color: #f8f9fa;
+}
+.Box{
+    margin-left: 10px;
+    margin-right: 10px;
+}

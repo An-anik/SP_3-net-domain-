@@ -1,0 +1,118 @@
+@media(max-width: 767px){
+	.phone{
+		position:static;
+		text-align: center;
+		margin: 50px auto 30px auto;
+		width: 60%;
+
+	}
+	.content{
+		text-align: center;
+		padding: 30px;
+	}
+	.content h1{
+		    padding: 0px;
+            font-size: 30px;
+	}
+	.content p {
+    margin-bottom: 45px;
+    font-size: 16px;
+    padding: 0px;
+    }
+	.header_pic{
+		flex-direction: column-reverse;
+	}
+	.height {
+    flex-direction: column-reverse; 
+    }
+
+    .navbar-nav{
+    	text-align: center;
+    	margin-top: 30px;
+    }
+
+    .navbar-toggler-i{
+	color:#fff;
+	font-size: 30px;
+	padding: 0px;
+    }
+   /* .btn-dowonload{
+		margin-bottom: 15px;
+	}*/
+	.text-end{
+    	text-align: center !important;
+    	padding-top: 25px;
+    }
+     .feature-item{
+    	margin-bottom: 30px;
+    }
+    .pricing_box{
+    	margin-bottom: 30px;
+/*    width: 95%;
+    margin: 0 auto 30px;
+*/    }
+
+}
+
+@media(max-width:575px){
+    .phn2{
+    	width: 60%;
+        margin: 0 auto 30px;
+    }
+    .pricing_box{
+    width: 95%;
+    margin: 0 auto 30px;
+    }
+
+    .form_box{
+    	width: 75%;
+    	top: 90%; 
+    }
+
+    .text-end{
+    	text-align: center !important;
+    	padding-top: 25px;
+    }
+
+    .ad_section h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    }
+    .social_media li{
+		padding: 5px;
+	}
+	.feature h3{
+		font-size: 35px;
+	}
+
+}
+
+       /* css for 320 px */
+
+@media(max-width: 320px){
+	.content p{
+		font-size: 15px;
+        text-align: left;
+	}
+	.content h1{
+		font-size: 30px;
+	}
+	.btn-dowonload{
+		margin-bottom: 15px;
+	}
+	.view{
+		width: 143px;
+	}
+	.heading h6{
+	    font-size: 24px;
+        padding-bottom: 15px;
+	}
+	.heading-two h6{
+		font-size: 24px;
+		padding-bottom: 15px;
+	}
+	.social_media li{
+		padding: 5px;
+	}
+}

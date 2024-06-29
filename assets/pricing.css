@@ -1,0 +1,42 @@
+body {
+    background: url(../image/images.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh; 
+      padding-top: 25px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+.column {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#column1 {
+    background-color: #f8f9fa; /* Light gray */
+}
+
+#column2 {
+    background-color: #f8f9fa;
+}
+
+#column3 {
+    background-color: #f8f9fa;
+}
+
+#column4 {
+    background-color: #f8f9fa;
+}
+.Box{
+    margin-left: 10px;
+    margin-right: 10px;
+}

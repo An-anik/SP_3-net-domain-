@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/crud.css">
+</head>
+<body>
+    
+    <div class="container my-5">
+        <h1 class="text-center">Add your review about Us  </h1>
+        <div class="form-container my-4">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <input type="text" id="name" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <input type="email" id="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <input type="text" id="review" class="form-control" placeholder="Review">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <input type="text" id="objection" class="form-control" placeholder="location">
+                </div>
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-primary btn-block" onclick="createEntry()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-center">Check our  review's </h2>
+        <div class="table-responsive">
+            <table id="entriesTable" class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Review</th>
+                        <th>location </th>
+                        <th> Change </th>
+                    </tr>
+                </thead>
+                <tbody>
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/crud.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

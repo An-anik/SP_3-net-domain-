@@ -1,0 +1,55 @@
+body {
+    background: url(../image/crud_back.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh; 
+      padding-top: 25px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: hsl(0, 7%, 19%);
+    margin-bottom: 20px;
+    padding: 10px 0px;
+  }
+  
+  button.edit {
+    background-color: #FFA500; /* Orange button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 2px;
+  }
+  
+  button.edit:hover {
+    background-color: #FF8C00; /* Darker orange on hover */
+  }
+  
+  button.delete {
+    background-color: #DC143C; /* Crimson button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 2px;
+  }
+  
+  button.delete:hover {
+    background-color: #B22222; /* Darker crimson on hover */
+  }
